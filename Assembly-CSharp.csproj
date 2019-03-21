@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1E863A93-7996-C23E-967D-2D94D9C1B8C7}</ProjectGuid>
+    <ProjectGuid>{23544757-0A99-98C6-F9DF-84B7CD35396A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,7 +51,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Microphone.cs" />
+     <Compile Include="Assets\Scripts\AutoDestroy.cs" />
+     <Compile Include="Assets\Scripts\MicrophoneDemo.cs" />
+     <Compile Include="Assets\Scripts\PitchDetector\ArrayPool.cs" />
+     <Compile Include="Assets\Scripts\PitchDetector\Downsample.cs" />
+     <Compile Include="Assets\Scripts\PitchDetector\MicrophonePitchDetector.cs" />
+     <Compile Include="Assets\Scripts\PitchDetector\Params.cs" />
+     <Compile Include="Assets\Scripts\PitchDetector\RAPTPitchDetector.cs" />
+     <Compile Include="Assets\Scripts\PitchDetector\RAPTPitchDetectorExtensions.cs" />
+     <Compile Include="Assets\Scripts\PitchDetector\Window.cs" />
+     <Compile Include="Assets\Scripts\TextMeshSharpener.cs" />
+     <Compile Include="Assets\Scripts\ToggleText.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
