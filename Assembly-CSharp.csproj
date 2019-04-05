@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AutoDestroy.cs" />
      <Compile Include="Assets\Scripts\MicrophoneDemo.cs" />
+     <Compile Include="Assets\Scripts\MicrophoneVolume.cs" />
      <Compile Include="Assets\Scripts\PitchDetector\ArrayPool.cs" />
      <Compile Include="Assets\Scripts\PitchDetector\Downsample.cs" />
      <Compile Include="Assets\Scripts\PitchDetector\MicrophonePitchDetector.cs" />
